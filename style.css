@@ -237,6 +237,28 @@ a.cta:visited {
 }
 
 /* =====================
+   CONTACT ACTIONS
+===================== */
+.contact-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;               /* espace entre les boutons */
+  margin-top: 30px;
+  flex-wrap: wrap;         /* responsive mobile */
+}
+
+/* Boutons avec icône */
+.icon-btn {
+  gap: 10px;               /* espace icône / texte */
+}
+
+.icon-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+/* =====================
    MOBILE
 ===================== */
 @media (max-width: 768px) {
@@ -267,6 +289,7 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
 
 
 
