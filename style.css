@@ -205,6 +205,17 @@ a.cta:visited {
   border-radius: 2px;
 }
 
+/* =====================
+   CONTACT IMAGE
+===================== */
+.contact-image {
+  display: block;
+  margin: 30px auto;
+  max-width: 600px;
+  width: 100%;
+  border-radius: 18px; /* cohérent avec tes cards */
+}
+
 
 /* =====================
    MOBILE
@@ -237,4 +248,5 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
 
