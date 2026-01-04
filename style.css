@@ -13,7 +13,7 @@
 :root {
   --black: #111111;
   --white: #ffffff;
-  --pink: #ffcccc;
+  --pink: #C93E45;
   --green: #c9d8c5;
   --wood: #f4efea;
   --soft-gray: #fafafa;
@@ -237,3 +237,4 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
