@@ -184,7 +184,7 @@ a.cta:visited {
 
 /* Image plus petite pour la section À propos */
 .section-image.thumbnail {
-  max-width: 520px;
+  max-width: 400px;
 }
 
 /* =====================
@@ -291,6 +291,7 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
 
 
 
