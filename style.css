@@ -217,20 +217,6 @@ a.cta:visited {
   border-radius: 18px; /* cohérent avec tes cards */
 }
 
-.contact-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.icon-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 12px;
-}
-
 .icon-btn img {
   width: 22px;
   height: 22px;
@@ -289,6 +275,7 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
 
 
 
