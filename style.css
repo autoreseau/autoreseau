@@ -182,6 +182,10 @@ a.cta:visited {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
 
+/* Image plus petite pour la section À propos */
+.section-image.thumbnail {
+  max-width: 520px;
+}
 
 /* =====================
    GRID
@@ -287,6 +291,7 @@ a.cta:visited {
     font-size: 1rem;
   }
 }
+
 
 
 
