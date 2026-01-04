@@ -1,240 +1,144 @@
-/* =====================
-   RESET
-===================== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MaPartenaireRH | Consultante RH stratégique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-/* =====================
-   VARIABLES
-===================== */
-:root {
-  --black: #111111;
-  --white: #ffffff;
-  --pink: #ffcccc;
-  --green: #c9d8c5;
-  --wood: #f4efea;
-  --soft-gray: #fafafa;
-}
+<body>
 
-/* =====================
-   BASE
-===================== */
-body {
-  font-family: "Century Gothic", Arial, sans-serif;
-  background-color: var(--white);
-  color: var(--black);
-  line-height: 1.7;
-}
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container">
+      <img src="assets/logo.png" alt="MaPartenaireRH logo" class="logo">
 
-/* =====================
-   CONTAINER
-===================== */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 0 32px;
-}
+      <h1>Analyser. Comprendre. Agir. <br> Les données RH au cœur des décisions. </h1>
 
-/* =====================
-   HERO
-===================== */
-.hero {
-  min-height: 100vh;
-  background: linear-gradient(to bottom, var(--white), var(--wood));
-  display: flex;
-  align-items: center;
-  justify-content: center; /* ⬅ centre horizontalement */
-  text-align: center;
-}
+      <p class="tagline">
+        
+        J’accompagne les organisations et les équipes de direction à structurer
+        leurs décisions RH à l’aide d’analyses, de données et de pratiques
+        alignées sur la stratégie d’affaires.
+      </p>
 
-.hero .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+      <a href="mailto:info@mapartenairerh.com" class="cta">
+        Me contacter
+      </a>
+    </div>
+  </header>
 
-.logo {
-  width: 100%;
-  max-width: 520px; /* ← augmente ici */
-  height: auto;
-  margin: 0 auto 40px;
-  display: block;
-}
+  <!-- SERVICES -->
+  <section class="section light">
+    <div class="container">
+      <h2>Services</h2>
 
-/* =====================
-   TITRES
-===================== */
+      <p class="center">
+        Une expertise RH complète, axée sur la planification stratégique,
+        la performance et le développement du leadership.
+      </p>
 
-/* Titre principal (MaPartenaireRH) */
-h1 {
-  display: inline-block;
-  background-color: var(--black);
-  color: var(--white);
+      <div class="grid">
+        <!-- Planification -->
+        <div class="card">
+          <img src="images/strategy.svg" alt="Planification stratégique" class="section-icon">
+          <h3>Planification de la main-d’œuvre et relève</h3>
+          <p>
+            Analyse des effectifs, identification des postes critiques,
+            gestion des risques de départs, planification de la relève
+            et accompagnement des dirigeants dans la prise de décision.
+          </p>
+        </div>
 
-  padding: 12px 26px;
-  font-size: 2.6rem;
-  font-weight: 500;
+        <!-- Tableaux de bord -->
+        <div class="card">
+          <img src="images/dashboard-speed.svg" alt="Tableaux de bord RH" class="section-icon">
+          <h3>Tableaux de bord et analytique RH</h3>
+          <p>
+            Conception de tableaux de bord RH (effectifs, roulement,
+            compétences, engagement) et analyses prédictives pour
+            anticiper les besoins futurs.
+          </p>
+        </div>
 
-  margin-bottom: 30px;
-  text-align: center;
-}
+        <!-- Performance -->
+        <div class="card">
+          <img src="images/zoom-in.svg" alt="Performance et leadership" class="section-icon">
+          <h3>Performance, talents et leadership</h3>
+          <p>
+            Création et mise à jour de programmes de gestion de la performance,
+            identification des talents à haut potentiel et développement
+            des compétences de leadership.
+          </p>
+        </div>
 
-/* Titres de sections */
-.section h2 {
-  display: block;            /* ⬅ pour bien centrer */
-  background: none;          /* ⬅ enlève tout fond */
-  color: var(--black);       /* ⬅ texte noir */
+        <!-- Culture -->
+        <div class="card">
+          <img src="images/organic-food-square.svg" alt="Culture et engagement" class="section-icon">
+          <h3>Culture, engagement et rétention</h3>
+          <p>
+            Diagnostics organisationnels, groupes de discussion,
+            ateliers d’équipe, programmes de reconnaissance
+            et accompagnement des gestionnaires.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  font-size: 2rem;
-  font-weight: 500;
-  text-align: center;
+  <!-- APPROCHE -->
+  <section class="section nature">
+    <div class="container">
+      <h2>Approche</h2>
 
-  margin-bottom: 40px;
-}
+      <p class="center">
+        Humaine, structurée et stratégique, en toute simplicité.<br><br>
+      </p>
 
+      <p class="center">
+        Je conçois et mets en place des programmes RH, des outils de suivi
+        et des tableaux de bord, j’analyse vos enjeux et je vous accompagne
+        dans la définition et la réalisation de plans d’action concrets.
+        J’agis comme une véritable partenaire d’affaires RH, en transformant
+        les données et diagnostics organisationnels en solutions pratiques
+        et durables.
+      </p>
+    </div>
+  </section>
 
+  <!-- EXPERTISE -->
+  <section class="section light">
+    <div class="container">
+      <h2>Expertise et outils</h2>
 
-/* =====================
-   TEXTE
-===================== */
-.tagline {
-  max-width: 720px;
-  margin: 0 auto 45px;
-  font-size: 1.05rem;
-  opacity: 0.9;
-}
+      <p class="center">
+        Planification stratégique de la main-d’œuvre • Gestion de la relève
+        et des talents • Tableaux de bord RH • Analytique RH et analyse prédictive •
+        Excel avancé, macros, VBA, JS, automatisation • Développement d’outils RH •
+        Animation d’ateliers • Communication et accompagnement exécutif
+      </p>
+    </div>
+  </section>
 
-.center {
-  max-width: 720px;
-  margin: 0 auto;
-  text-align: center;
-  opacity: 0.9;
-}
+  <!-- CONTACT -->
+  <section class="section">
+    <div class="container center">
+      <h2>Contact</h2>
 
-/* =====================
-   BUTTON (CTA)
-===================== */
-a.cta,
-a.cta:visited {
-  text-decoration: none;
-  color: var(--black);
-}
+      <p>
+        <p>
+  Première consultation gratuite <br><br> Offrez vous un moment pour échanger au sujet de vos talents,
+  clarifier vos enjeux RH et définir des actions alignées sur votre réalité.
+</p>
 
-.cta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 24px;
+      </p>
 
-  padding: 16px 40px;
-  border-radius: 999px;
+      <a href="mailto:info@mapartenairerh.com" class="cta">
+        Me contacter
+      </a>
+    </div>
+  </section>
 
-  background-color: var(--pink);
-  border: 2px solid var(--pink);
-
-  font-weight: 600;
-  cursor: pointer;
-
-  transition: all 0.25s ease;
-}
-
-.cta:hover {
-  background-color: transparent;
-  transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-}
-
-/* =====================
-   SECTIONS
-===================== */
-.section {
-  padding: 110px 0;
-}
-
-.section.light {
-  background-color: var(--soft-gray);
-}
-
-.section.nature {
-  background-color: var(--wood);
-}
-
-.section-icon {
-  width: 56px;              /* plus gros */
-  height: auto;
-  margin-bottom: 24px;      /* espace avant la ligne verte */
-  opacity: 0.9;
-}
-
-
-/* =====================
-   GRID
-===================== */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 40px;
-  margin-top: 40px;
-}
-
-/* =====================
-   CARDS
-===================== */
-.card {
-  background-color: var(--white);
-  padding: 40px;
-  border-radius: 18px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
-}
-
-.card h3 {
-  font-size: 1.1rem;
-  margin-bottom: 18px;
-}
-
-.card h3::before {
-  content: "";
-  display: block;
-  width: 40px;
-  height: 4px;
-  background-color: var(--green);
-  margin: 16px auto 20px;  /* centré, bien espacé */
-  border-radius: 2px;
-}
-
-
-/* =====================
-   MOBILE
-===================== */
-@media (max-width: 768px) {
-  .container {
-    padding: 0 20px;
-  }
-
-  @media (max-width: 768px) {
-  .logo {
-    max-width: 280px;
-  }
-}
-   
-  h1 {
-    font-size: 2rem;
-    padding: 10px 22px;
-  }
-
-  .section h2 {
-    font-size: 1.6rem;
-  }
-
-  .section {
-    padding: 90px 0;
-  }
-
-  .tagline {
-    font-size: 1rem;
-  }
-}
-
+</body>
+</html>
